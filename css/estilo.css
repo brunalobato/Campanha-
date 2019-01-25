@@ -1,0 +1,48 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+.land{
+    background: url("../img/img-campanha.png") no-repeat 0 0;
+    background-size: cover;
+    font-family:'Lato', sans-serif;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,-65%);
+    
+}
+
+.titulo {
+    margin-bottom:8%;
+
+}
+
+.texto {
+    margin-bottom:20px;
+
+}
+
+.texto2{
+    margin-bottom: 45px;
+}
+
+.field {
+    border: rgb(89, 183, 250) solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-txt {
+    border: none;
+    width: 70%;
+    padding: 0 10px;
+}
+
+.btn {
+    color: transparent;
+    background: rgb(89, 183, 250);
+    border: none;
+    height: 30px;
+    width: 100px;
+}
